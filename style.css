@@ -1,0 +1,56 @@
+body {
+  background-color: #1c1c1c;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  border: whitesmoke solid 2px;
+  margin: 10px;
+  height: 100vh;
+  padding: 20px;
+}
+
+.top {
+  position: relative;
+}
+
+.shapes {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 150px;
+}
+
+.logo {
+  position: absolute;
+  left: 76px;
+  width: 560px;
+  top: 24px;
+}
+
+.line {
+  position: relative;
+  background-color: blueviolet;
+  height: 8px;
+  width: 120vw;
+  top: 95px;
+  left: 76px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.aboutmelogo {
+  padding-block-start: 120px;
+  height: 110px;
+}
+
+.name {
+  align-self: center;
+  height: 50px;
+}
