@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="406" height="62" viewBox="0 0 406 62">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_20" data-name="Rectangle 20" width="362" height="42" transform="translate(0 0)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_19" data-name="Group 19" transform="translate(-34 -36)">
+    <g id="Component_6_1" data-name="Component 6 – 1" transform="translate(33.399 35.674)">
+      <g id="Component_5_1" data-name="Component 5 – 1" transform="translate(56.541 15.088)">
+        <rect id="Rectangle_3" data-name="Rectangle 3" width="33" height="32" transform="translate(0.06 0.238)" fill="#253093"/>
+      </g>
+      <g id="Component_4_1" data-name="Component 4 – 1" transform="translate(7.089 0.326)">
+        <path id="Polygon_1" data-name="Polygon 1" d="M36.5,0,73,62H0Z" transform="translate(-0.488 0)" fill="#1ca381"/>
+      </g>
+      <g id="Component_3_1" data-name="Component 3 – 1" transform="translate(0.446 15.088)">
+        <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="16.5" cy="16" rx="16.5" ry="16" transform="translate(0.155 0.238)" fill="#fd333f"/>
+      </g>
+    </g>
+    <g id="Component_8_2" data-name="Component 8 – 2" transform="translate(78 50)">
+      <g id="Group_11" data-name="Group 11" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Path_74" data-name="Path 74" d="M0,0V42.13H19.053V28.087h4.763s14.289,0,14.289-14.043S23.816,0,23.816,0Z" transform="translate(0 -0.13)" fill="#fff"/>
+        <path id="Path_75" data-name="Path 75" d="M190.579,28.087l9.526,14.043H162V0h23.816s14.289,0,14.289,14.043c0,8.608-5.372,11.942-9.526,13.232-.122.036-.243.073-.36.1Z" transform="translate(-76.263 -0.13)" fill="#fff"/>
+        <path id="Path_76" data-name="Path 76" d="M281.105,0V14.043h-9.526V42.13H252.526V14.043H243V0Z" transform="translate(-114.395 -0.13)" fill="#fff"/>
+        <path id="Path_77" data-name="Path 77" d="M343.053,14.563v1.56h19.053v2.6H343.053V42.13H324V0h38.105V14.563Z" transform="translate(-152.526 -0.13)" fill="#fff"/>
+        <path id="Path_78" data-name="Path 78" d="M524.105,28.087V42.13H486V0h19.053V28.087Z" transform="translate(-228.789 -0.13)" fill="#fff"/>
+        <rect id="Rectangle_19" data-name="Rectangle 19" width="19" height="42" transform="translate(300 0)" fill="#fff"/>
+        <path id="Path_79" data-name="Path 79" d="M631.053,42.13h0A18.891,18.891,0,0,1,612,23.406V18.724a19.055,19.055,0,0,1,38.105,0v4.681A18.891,18.891,0,0,1,631.053,42.13" transform="translate(-288.105 -0.13)" fill="#fff"/>
+        <path id="Path_80" data-name="Path 80" d="M100.053,42.13h0A18.891,18.891,0,0,1,81,23.406V18.724a19.056,19.056,0,0,1,38.105,0v4.681A18.891,18.891,0,0,1,100.053,42.13" transform="translate(-38.132 -0.13)" fill="#fff"/>
+        <path id="Path_81" data-name="Path 81" d="M424.053,42.13h0A18.891,18.891,0,0,1,405,23.406V18.724a19.056,19.056,0,0,1,38.105,0v4.681A18.891,18.891,0,0,1,424.053,42.13" transform="translate(-190.658 -0.13)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

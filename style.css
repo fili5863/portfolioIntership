@@ -1,44 +1,63 @@
-body {
-  background-color: #1c1c1c;
-  overflow-x: hidden;
+* {
+  --black: #090909;
 }
 
-.container {
-  position: relative;
-  border: whitesmoke solid 2px;
-  margin: 10px;
+html,
+body {
+  overflow: hidden;
+}
 
+main {
+  margin: 0 auto;
+  max-width: 1920px;
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+main::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: var(--black);
+  border: whitesmoke solid 2px;
   padding: 20px;
 }
 
-.top {
-  position: relative;
-}
+/* Logo */
 
-.shapes {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 150px;
+.top {
+  display: grid;
+  height: 10%;
+  max-width: 100%;
 }
 
 .logo {
-  position: absolute;
-  left: 76px;
-  width: 560px;
-  top: 24px;
+  grid-row: 1;
+  grid-column: 1;
+  width: 100%;
+  max-width: 500px;
 }
 
 .line {
-  position: relative;
+  align-self: center;
+  margin-top: 10px;
+  grid-row: 1;
+  grid-column: 1;
+  height: 5px;
+  width: 120%;
+  margin-inline-start: 10px;
   background-color: blueviolet;
-  height: 8px;
-  width: 120vw;
-  top: 58px;
-  left: 76px;
 }
 
+/* Content */
 .content {
+  padding-top: 50px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -46,28 +65,24 @@ body {
 }
 
 .aboutmelogo {
-  padding-block-start: 120px;
-  height: 100px;
-}
-
-.name {
-  align-self: center;
-  height: 45px;
-}
-
-.pic {
-  width: 264px;
-  border: solid 2px whitesmoke;
-  box-shadow: 8px 8px 0px #1c1c1c, 8px 8px 0px 2px whitesmoke;
+  width: clamp(50%, 70%, 420px);
+  height: auto;
+  place-self: center;
 }
 
 .aboutme {
-  display: grid;
-  grid-template-columns: 2fr auto;
-  width: 1000px;
-  align-self: center;
+  display: flex;
+  flex-direction: column;
   gap: 30px;
-  padding-top: 75px;
+}
+
+.pic {
+  place-self: center;
+  height: auto;
+  width: 264px;
+  max-width: 100%;
+  border: solid 2px whitesmoke;
+  box-shadow: 8px 8px 0px var(--black), 8px 8px 0px 2px whitesmoke;
 }
 
 p {
@@ -77,4 +92,45 @@ p {
   color: whitesmoke;
   font-weight: 100;
   line-height: 1.7rem;
+}
+
+/* Scroll */
+section {
+  height: 100vh;
+  scroll-snap-align: start;
+  position: relative;
+}
+
+@media (min-width: 800px) {
+  .content {
+    padding-top: unset;
+    margin-block-start: -50px;
+    gap: unset;
+  }
+
+  .aboutmelogo {
+    height: 100px;
+  }
+
+  .name {
+    grid-column: 1/3;
+    place-self: center;
+    height: 45px;
+    margin-block-end: 20px;
+  }
+
+  .aboutme {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 800px;
+    align-self: center;
+    gap: 30px;
+    padding-top: 75px;
+  }
+  .pic {
+    grid-row: 2;
+  }
+  p {
+    grid-row: 2;
+  }
 }
