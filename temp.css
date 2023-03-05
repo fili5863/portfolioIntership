@@ -1,0 +1,47 @@
+@media (max-width: 1200px) {
+  .top {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .shape {
+    max-width: 500px;
+    position: relative;
+    place-self: center;
+  }
+
+  .text {
+    place-self: center;
+    max-width: 700px;
+    position: relative;
+    top: -200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  header {
+    position: fixed;
+    height: 150px;
+    width: 100%;
+    background-color: var(--black);
+
+    top: 0;
+    left: 0;
+  }
+
+  .top {
+    position: relative;
+    top: 20px;
+    left: 20px;
+  }
+}
+@media (min-width: 2000px) {
+  .shape {
+    top: 400px;
+  }
+
+  .text {
+    top: 100px;
+  }
+}
