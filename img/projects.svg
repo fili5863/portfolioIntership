@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="526" height="51.338" viewBox="0 0 526 51.338">
+  <g id="Group_20" data-name="Group 20" transform="translate(-285 -144.831)">
+    <g id="Artwork_3" data-name="Artwork 3" transform="translate(670.5 185.331)">
+      <g id="Group_13" data-name="Group 13" transform="translate(-319.5 -40.5)">
+        <path id="Path_89" data-name="Path 89" d="M0,0V51.338H22.817V34.225h5.7s17.113,0,17.113-17.113S28.521,0,28.521,0Z" fill="#fff"/>
+        <path id="Path_90" data-name="Path 90" d="M115.225,34.225l11.408,17.113H81V0h28.521s17.113,0,17.113,17.113c0,10.489-6.433,14.552-11.408,16.124-.146.044-.292.089-.431.127Z" transform="translate(-29.662)" fill="#fff"/>
+        <path id="Path_91" data-name="Path 91" d="M531.634,0V17.113H520.225V51.338H497.408V17.113H486V0Z" transform="translate(-177.972 0)" fill="#fff"/>
+        <path id="Path_92" data-name="Path 92" d="M346.817,17.746v1.9h22.817v3.169H346.817v1.9h22.817v26.62H324V0h45.634V17.746Z" transform="translate(-118.648 0)" fill="#fff"/>
+        <path id="Path_93" data-name="Path 93" d="M288.634,0V28.521a22.817,22.817,0,1,1-45.634,0h22.817V0Z" transform="translate(-88.986)" fill="#fff"/>
+        <path id="Path_94" data-name="Path 94" d="M612.634,17.037a.076.076,0,0,1-.076.076H595.521a17.117,17.117,0,0,1,17.111,17.366,17.383,17.383,0,0,1-17.525,16.859H567.076a.076.076,0,0,1-.076-.076V34.3a.076.076,0,0,1,.076-.076h17.037A17.117,17.117,0,0,1,567,16.859,17.382,17.382,0,0,1,584.527,0h28.031a.076.076,0,0,1,.076.076Z" transform="translate(-207.634)" fill="#fff"/>
+        <rect id="Rectangle_23" data-name="Rectangle 23" width="46" height="51" rx="23" transform="translate(102 0.169)" fill="#fd333f"/>
+        <path id="Path_95" data-name="Path 95" d="M427.817,25.669l21.429,10.718A22.823,22.823,0,0,1,405,28.521v-5.7a22.824,22.824,0,0,1,44.246-7.865Z" transform="translate(-148.31)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Component_6_1" data-name="Component 6 – 1" transform="translate(60.156 195.831)">
+      <g id="Component_4_1" data-name="Component 4 – 1" transform="translate(225 -51)">
+        <path id="Polygon_1" data-name="Polygon 1" d="M29.5,0,59,51H0Z" transform="translate(-0.156 0.169)" fill="#1ca381"/>
+      </g>
+    </g>
+    <g id="Component_6_1-2" data-name="Component 6 – 1" transform="translate(1209 246)">
+      <g id="Component_5_1" data-name="Component 5 – 1" transform="translate(-449 -101)">
+        <rect id="Rectangle_3" data-name="Rectangle 3" width="51" height="51" fill="#253093"/>
+      </g>
+    </g>
+  </g>
+</svg>

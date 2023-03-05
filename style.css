@@ -1,62 +1,48 @@
 * {
+  all: unset;
+  display: revert;
+  cursor: revert;
+  box-sizing: border-box;
+}
+
+:root {
   --black: #090909;
 }
 
-html,
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
-main {
+/* img */
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
-  max-width: 1920px;
-  width: 100vw;
-  height: 100vh;
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-main::-webkit-scrollbar {
-  display: none;
 }
 
 body {
   background-color: var(--black);
   border: whitesmoke solid 2px;
   padding: 20px;
-}
-
-/* Logo */
-
-.top {
-  display: grid;
-  height: 10%;
-  max-width: 100%;
-}
-
-.logo {
-  grid-row: 1;
-  grid-column: 1;
-  width: 100%;
-  max-width: 500px;
-}
-
-.line {
-  align-self: center;
-  margin-top: 10px;
-  grid-row: 1;
-  grid-column: 1;
-  height: 5px;
-  width: 120%;
-  margin-inline-start: 10px;
-  background-color: blueviolet;
+  margin: 20px;
 }
 
 /* Content */
+
+.container {
+  margin-top: 104px;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
 .content {
+  height: 100vh;
   padding-top: 50px;
   display: flex;
   justify-content: center;
@@ -64,10 +50,17 @@ body {
   gap: 40px;
 }
 
-.aboutmelogo {
-  width: clamp(50%, 70%, 420px);
+.aboutmelogo,
+.projectLogo {
   height: auto;
   place-self: center;
+}
+
+.aboutmelogo {
+  width: clamp(50%, 70%, 420px);
+}
+.projectLogo {
+  width: clamp(50%, 85%, 420px);
 }
 
 .aboutme {
@@ -94,22 +87,78 @@ p {
   line-height: 1.7rem;
 }
 
-/* Scroll */
-section {
-  height: 100vh;
-  scroll-snap-align: start;
-  position: relative;
+.projects {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 50px;
+  gap: 100px;
 }
 
+.project {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .projectContainer {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+} */
+
 @media (min-width: 800px) {
-  .content {
-    padding-top: unset;
-    margin-block-start: -50px;
-    gap: unset;
+  .top {
+    position: fixed;
+    height: 104px;
+    width: 1500px;
   }
 
-  .aboutmelogo {
-    height: 100px;
+  .text {
+    position: relative;
+    top: -100px;
+    left: 300px;
+    width: 864px;
+    height: auto;
+
+    animation: moveText 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -6s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+  .shape {
+    position: relative;
+    width: 743px;
+    height: auto;
+    top: 200px;
+    left: 25%;
+    animation: moveShape 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -6s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+
+  @keyframes moveShape {
+    to {
+      transform: translate(-44vw, -440px) scale(0.2);
+    }
+  }
+  @keyframes moveText {
+    to {
+      transform: translate(-31vw, -444px) scale(0.5);
+    }
+  }
+
+  .content {
+    gap: unset;
+    padding: unset;
+  }
+
+  .aboutmelogo,
+  .projectLogo {
+    height: 75px;
   }
 
   .name {
@@ -130,7 +179,26 @@ section {
   .pic {
     grid-row: 2;
   }
-  p {
-    grid-row: 2;
+
+  .project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  .project:nth-child(odd) img {
+    order: 1;
+  }
+}
+
+@media (min-width: 1900px) {
+  @keyframes moveShape {
+    to {
+      transform: translate(-840px, -440px) scale(0.2);
+    }
+  }
+  @keyframes moveText {
+    to {
+      transform: translate(-615px, -444px) scale(0.5);
+    }
   }
 }
