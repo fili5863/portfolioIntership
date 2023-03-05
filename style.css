@@ -23,6 +23,7 @@ header {
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  background-color: var(--black);
 }
 
 body {
@@ -142,12 +143,12 @@ p {
 
   @keyframes moveShape {
     to {
-      transform: translate(-44vw, -440px) scale(0.2);
+      transform: translate(-43vw, -430px) scale(0.2);
     }
   }
   @keyframes moveText {
     to {
-      transform: translate(-31vw, -444px) scale(0.5);
+      transform: translate(-30vw, -434px) scale(0.5);
     }
   }
 
