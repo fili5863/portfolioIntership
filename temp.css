@@ -6,16 +6,19 @@
   }
 
   .shape {
+    top: 10%;
+    width: 50%;
     max-width: 500px;
     position: relative;
     place-self: center;
   }
 
   .text {
+    top: -35%;
+    width: 60%;
     place-self: center;
     max-width: 700px;
     position: relative;
-    top: -200px;
   }
 }
 
