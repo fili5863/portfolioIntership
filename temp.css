@@ -23,11 +23,27 @@
   header {
     position: fixed;
     height: 150px;
-    width: 100%;
+    width: calc(100% - 40px);
+    z-index: 3;
     background-color: var(--black);
-
+    left: 20px;
     top: 0;
-    left: 0;
+    transform: translateY(-130px);
+    animation: moveHeader 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -6s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+
+  @keyframes moveHeader {
+    to {
+      transform: translateY(0px);
+    }
+  }
+  body {
+    border-top: 0px;
+    margin-top: 0;
   }
 
   .top {
@@ -36,6 +52,7 @@
     left: 20px;
   }
 }
+
 @media (min-width: 2000px) {
   .shape {
     top: 400px;
