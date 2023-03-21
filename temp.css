@@ -25,13 +25,13 @@
 @media (min-width: 1200px) {
   header {
     position: fixed;
-    height: 150px;
+    height: 83px;
     width: calc(100% - 40px);
     z-index: 3;
     background-color: var(--black);
     left: 20px;
     top: 0;
-    transform: translateY(-130px);
+    transform: translateY(-55px);
     animation: moveHeader 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -6s);
