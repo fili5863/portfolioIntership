@@ -20,13 +20,10 @@ header {
   justify-content: center;
   margin: 0 auto;
   background-color: var(--black);
-  border-bottom: 2px solid whitesmoke;
 }
 
 body {
   background-color: var(--black);
-  border: whitesmoke solid 2px;
-
   margin: 20px;
 }
 
