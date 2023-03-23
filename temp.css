@@ -15,9 +15,7 @@
 
   .text {
     top: -35%;
-    width: 60%;
     place-self: center;
-    max-width: 700px;
     position: relative;
   }
 }
@@ -28,7 +26,7 @@
     height: 83px;
     width: calc(100% - 40px);
     z-index: 3;
-    background-color: var(--black);
+
     left: 20px;
     top: 0;
     transform: translateY(-55px);
