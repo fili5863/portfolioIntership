@@ -7,7 +7,7 @@
 }
 
 :root {
-  --black: #262626;
+  --black: #333333;
   --white: #f1efd4;
   --blue: #3753b5;
   --lightblue: #23a6d5;
@@ -38,7 +38,6 @@ header {
 
 body {
   background-color: var(--white);
-  margin: 20px;
 }
 
 /* Content */
@@ -119,7 +118,7 @@ p {
 
 .project > img:hover {
   transform: translateX(-8px) translateY(-8px);
-  box-shadow: 8px 8px 0px var(--blue);
+  box-shadow: 8px 8px 0px var(--lightblue);
 }
 
 /* .projectContainer {
@@ -132,7 +131,6 @@ p {
   .top {
     position: fixed;
     height: 104px;
-    width: 1500px;
   }
 
   .text {

@@ -26,7 +26,6 @@
     height: 83px;
     width: calc(100% - 40px);
     z-index: 3;
-
     left: 20px;
     top: 0;
     transform: translateY(-55px);
@@ -45,12 +44,6 @@
   body {
     border-top: 0px;
     margin-top: 0;
-  }
-
-  .top {
-    position: relative;
-    top: 20px;
-    left: 20px;
   }
 }
 
